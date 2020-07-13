@@ -1,6 +1,8 @@
 body {
+    background-color: #9c9f84;
     margin: 60px auto;
     width: 70%;
+    font-size: 14px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -40,4 +42,15 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+h1{
+    font-size: 120%
+}
+.main{
+    background-color: #e5e4d7;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%
 }
