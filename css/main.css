@@ -9,9 +9,11 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-size: 120%;
 }
 nav ul li, footer ul li {
     display: inline;
+    font-size: 120%;
     margin-right: 20px;
 }
 a {
@@ -45,12 +47,12 @@ ul.posts li {
 }
 
 h1{
-    font-size: 120%
+    font-size: 120%;
 }
 .main{
     background-color: #3b8bc0;
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
-    font-size: 110%
+    font-size: 110%;
 }
