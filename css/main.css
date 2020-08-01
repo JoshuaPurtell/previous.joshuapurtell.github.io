@@ -66,27 +66,30 @@ h1{
     flex: 1;
 }
 .mid_page .static_article .body{
-    width:500px;
-    height:400px;
+    width:650px;
+    height:500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
     background-color: #3b8bc0;
-    margin: 10px;
+    margin: 1px;
     border-radius: 5px;
-    padding: 5px;
-    font-size: 100%;
+    padding: 1px;
+    font-size: 80%;
 }
 .mid_page .static_article .body .text{
     flex: 1;
-    height:350px;
+    height:500px;
+    overflow:auto;
     word-wrap: break-word;
 }
-.mid_page .static_article .body .links{
+.mid_page .static_article .links{
+    margin: 7px;
     flex: 1;
     height:50px;
     word-wrap: break-word;
+    font-size: 70%;
 }
 
 .mid_page .links .media{
@@ -135,7 +138,7 @@ h1{
 }
 .mid_page .articles .main_article .text{
     flex: 1;
-    height:100px;
+    height:90px;
     word-wrap: break-word;
 }
 .mid_page .articles .main_article .more{
@@ -143,7 +146,8 @@ h1{
     height:20px;
 }
 .preview_pic{
-    width:100px; 
+    height:90px;
+    width:130px; 
     border:1px solid rgb(29, 31, 187); 
     padding:1px; 
     margin:1px;
