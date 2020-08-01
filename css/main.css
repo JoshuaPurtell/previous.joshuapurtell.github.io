@@ -59,6 +59,31 @@ h1{
 .mid_page .links{
     flex: 1;
 }
+.mid_page .static_article{
+    flex: 1;
+}
+.mid_page .dynamic_article{
+    flex: 1;
+}
+.mid_page .static_article .body{
+    width:300px;
+    height:600px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #3b8bc0;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 100%;
+}
+.mid_page .static_article .body .text{
+    flex: 1;
+    height:550px;
+    word-wrap: break-word;
+}
+
 .mid_page .links .media{
     width:300px;
     height:62px;
