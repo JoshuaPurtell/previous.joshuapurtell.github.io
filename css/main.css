@@ -1,6 +1,7 @@
 /* NAV */
 
 .topnav {
+    font-family: Calibri;
     position: relative;
     background-color: rgb(3, 3, 3);
     overflow: hidden;
@@ -23,35 +24,28 @@
     float: none;
     position: absolute;
     top: 50%;
-    left: 10%;
+    left: 14.3%;
     transform: translate(-50%, -50%);
 }
-.topnav-centered-musings a {
+.topnav-centered-blog a {
     float: none;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 39.3%;
     transform: translate(-50%, -50%);
 }
-.topnav-centered-technical a {
+.topnav-centered-work a {
     float: none;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.topnav-centered-algorithms a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 70%;
+    left: 60%;
     transform: translate(-50%, -50%);
 }
 .topnav-centered-about a {
     float: none;
     position: absolute;
     top: 50%;
-    left: 90%;
+    left: 85%;
     transform: translate(-50%, -50%);
 }
 
@@ -146,7 +140,7 @@ h1{
 }
 .mid_page{
     display: flex;
-    background-color: #1757b6;
+    background-color: rgb(3, 3, 3);
 }
 .mid_page .articles{
     flex: 1;
@@ -167,7 +161,7 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    background-color: #3b8bc0;
+    background-color: rgb(3, 3, 3);
     margin: 1px;
     border-radius: 5px;
     padding: 1px;
@@ -178,6 +172,7 @@ h1{
     height:500px;
     overflow:auto;
     word-wrap: break-word;
+    color: rgb(226, 45, 45);
 }
 .mid_page .static_article .links{
     margin: 7px;
@@ -194,11 +189,12 @@ h1{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    background-color: #3b8bc0;
+    background-color: rgb(3, 3, 3);
     margin: 5px;
     border-radius: 5px;
     padding: 5px;
     font-size: 100%;
+    color: rgb(3, 3, 3);
 }
 .mid_page .links .media .logo{
     flex: 1;
@@ -206,7 +202,7 @@ h1{
 .preview_logo{
     width:90px; 
     height:55px; 
-    border:1px solid rgb(29, 31, 187); 
+    border:1px solid rgb(3, 3, 3);
     padding:1px; 
     margin:1px;
 }
@@ -214,6 +210,7 @@ h1{
     flex: 1;
     height:55px;
     word-wrap: break-word;
+    color: rgb(226, 45, 45);
 }
 
 .mid_page .articles .main_article{
@@ -221,20 +218,23 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    background-color: #3b8bc0;
+    background-color: rgb(3, 3, 3);
     margin: 5px;
     border-radius: 5px;
     padding: 5px;
     font-size: 80%;
+    color: rgb(226, 45, 45);
 }
 .mid_page .articles .main_article .pic{
     flex: 1;
     height:100px;
+    color: rgb(3, 3, 3);
 }
 .mid_page .articles .main_article .text{
     flex: 1;
     height:90px;
     word-wrap: break-word;
+    color: rgb(226, 45, 45);
 }
 .mid_page .articles .main_article .more{
     flex: 1;
@@ -243,7 +243,7 @@ h1{
 .preview_pic{
     height:90px;
     width:130px; 
-    border:1px solid rgb(29, 31, 187); 
+    border:1px solid rgb(226, 45, 45); 
     padding:1px; 
     margin:1px;
 }
@@ -251,7 +251,7 @@ h1{
 .circular_svejk { 
     width:120px; 
     border-radius: 50%;
-    border:1px solid rgb(29, 31, 187); 
+    border:1px solid rgb(226, 45, 45); 
     padding:1px; 
     margin:1px;
     
@@ -259,7 +259,7 @@ h1{
 
 .banner{
     display:flex;
-    background-color: #28b0da;
+    background-color: rgb(238, 20, 20);
     margin: 2px;
     border-radius: 2px;
     padding: 5px;
@@ -291,6 +291,7 @@ h1{
     margin: 2px;
     border-radius: 2px;
     padding: 5px;
+
     align-items: center;
     justify-content: center;
 }
